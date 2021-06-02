@@ -8,7 +8,6 @@ link_directories("/usr/local/lib/")
 
 add_executable(arithmetic_coding
         main.cpp
-        src/Fraction/Fraction.cpp
         src/Arithmetic/arithmetic.cpp
         src/Utils/utils.cpp)
 

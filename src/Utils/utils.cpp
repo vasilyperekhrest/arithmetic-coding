@@ -2,10 +2,11 @@
 // Created by Vasily Perekhrest on 16.04.2021.
 //
 
-#include "utils.hpp"
-
 #include <set>
 #include <string>
+
+#include "utils.hpp"
+
 
 std::map<char, int> CharCounter(const std::string &str) {
     std::map<char, int> char_counter;
